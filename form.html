@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FORM</title>
+  <style>
+    input:focus{
+      background-color: beige;
+    }
+    
+
+  </style>
+</head>
+<body style="background-color: aqua;">
+     <form>
+      
+        <label>Username</label>
+        <input type="text" placeholder="Enter user name" required/><br><br>
+        <label>Password</label>
+        <input type="password"/><br><br>
+        <label>Email</label>
+        <input type="email"/><br><br>
+        <label>DOB</label>
+        <input type="date"/><br><br>
+      
+        <label>Age</label>
+        <input type="number"/>
+        <label>Mobile Number</label>
+        <input type="number"/>
+        <p>Gender:</p>
+        <lable>Male</lable>
+        <input type="radio" name="bavan"/>
+        <label>Female</label>
+        <input type="radio" name="bavan"/><br><br>
+        <label>Country:</label>
+        <select>
+          <option value="India">INDIA</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="uae">UAE</option>
+
+        </select><br><br>
+        <fieldset style="background-color: antiquewhite;">
+            <legend>Personal Info</legend><br>
+
+            <label>First Name:</label>
+            <input type="text" name="fname"><br><br>
+
+            <label >Last Name:</label>
+            <input type="text" name="lname"><br><br>
+
+        </fieldset>
+        <br><label>Choose a Color:</label>
+        <input type="color"/><br><br>
+        <label>Upload a File:</label>
+        <input type="file"/><br><br>
+        <label>Message:</label>
+        <textarea rows="5" cols="50" placeholder="Enter your comments hare....."></textarea><br><br>
+        <input type="checkbox"/>
+        <label>I agree to the terms and conditions</label><br><br>
+        <input type="submit"/>
+        <input type="reset"/>
+     </form>
+
+</body>
+</html>
